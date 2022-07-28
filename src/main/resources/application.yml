@@ -6,3 +6,9 @@ spring:
     password:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      defer-datasource-initialization: true
+      hibernate:
+        show_sql: true
+        format_sql: true
+
